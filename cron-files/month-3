@@ -1,0 +1,2 @@
+# m h  dom mon dow   command
+0 4 1 */3 *            /bin/date && /usr/bin/docker system prune -af >> /dev/stdout 2>&1

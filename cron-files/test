@@ -1,0 +1,4 @@
+# m h  dom mon dow   command
+# for example: 
+* * * * *            /bin/date && /bin/echo "Hello world!" >> /dev/stdout 2>&1
+* * * * *            /usr/bin/docker system info >> /dev/stdout 2>&1
