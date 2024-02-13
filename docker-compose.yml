@@ -2,11 +2,10 @@ version: "3"
 
 services:
   simple-docker-cleaner:
-    build:
-      context: .
-      #network: host
+    image: ghcr.io/rissd/simple-docker-cleaner:latest
     #command: day
     #command: 95%
     volumes:
+      - /etc/timezone:/etc/timezone:ro
       - /var/run/docker.sock:/var/run/docker.sock
     restart: always
